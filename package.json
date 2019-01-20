@@ -1,0 +1,38 @@
+{
+  "name": "react-seo-expert",
+  "description": "❤️ Google Love - ⚡️ React Seo Expert is a plugin for React projects with Next library. Text analysis and assessment library in JavaScript based on The Open Graph protocol.",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoseJPR/react-seo-expert"
+  },
+  "keywords": [
+    "React",
+    "Next",
+    "SEO",
+    "Google Site Verification",
+    "Open Graph",
+    "Facebook",
+    "Twitter"
+  ],
+  "author": "José Jesús Pérez Rivas",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "webpack": "^4.28.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
