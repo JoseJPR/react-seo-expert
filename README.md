@@ -24,7 +24,7 @@ Because a web worker must be a separate script in the browser you first need to 
 ```js
 import Head from 'next/head';
 import React from 'react';
-import Seo from 'react-seo';
+import Seo from 'react-seo-expert';
 
 class Index extends React.Component {
   render() {

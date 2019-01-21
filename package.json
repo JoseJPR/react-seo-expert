@@ -1,8 +1,8 @@
 {
   "name": "react-seo-expert",
   "description": "❤️ Google Love - ⚡️ React Seo Expert is a plugin for React projects with Next library. Text analysis and assessment library in JavaScript based on The Open Graph protocol.",
-  "version": "1.0.2",
-  "main": "build/index.js",
+  "version": "1.0.3",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/JoseJPR/react-seo-expert"
