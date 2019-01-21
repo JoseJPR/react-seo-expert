@@ -17,7 +17,7 @@ const Seo = props => {
     image: props.config.image || null,
     video: props.config.video || null,
     audio: props.config.audio || null,
-    url: props.config.url || null
+    url: props.config.url || null,
     twitter_card: props.config.twitter_card || null,
     twitter_site: props.config.twitter_site || null,
     twitter_creator: props.config.twitter_creator || null
