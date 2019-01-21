@@ -1,8 +1,13 @@
 # React Seo Expert [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+![React Seo Expert](images/banner.png)
+
 React Seo Expert is a plugin for [React.js](https://reactjs.org/) projects with [Next.js](https://nextjs.org/) library.
 
-Text analysis and assessment library in JavaScript based on The Open Graph protocol. 
+Text analysis and assessment library in JavaScript based on [The Open Graph protocol](http://ogp.me/), [Google Site Verification](https://developers.google.com/site-verification/) and [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html). 
+
+### Without and With React Seo Expert
+![Without and With React Seo Expert](images/seo.png)
 
 ## Installation
 You can install React Seo Expert using npm:
@@ -26,18 +31,23 @@ class Index extends React.Component {
     const SEO = {
       "keywords": "",
       "author": "",
-      "description": "",
       "copyright": "",
+      "email": "",
       "language": "",
       "robots": "",
-      "email": "",
       "google_site_verification": "",
       "viewport": "",
-      "url": "",
       "title": "",
+      "description": "",
+      "locale": "",
+      "type": "",
       "image": "",
-      "twitter_username": "",
-      "twitter_site": ""
+      "video": "",
+      "audio": "",
+      "url": "",
+      "twitter_card": "",
+      "twitter_site": "",
+      "twitter_creator": ""
     }
     return (
       <div>
@@ -52,7 +62,13 @@ class Index extends React.Component {
 export default Index;
 ```
 
+## More Info
+[The Open Graph protocol](http://ogp.me/) \
+[Google Site Verification](https://developers.google.com/site-verification/) \
+[Tweets with Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html)
+
 ## Maintainers
+![JoseJPR Avatar](images/photo-josejpr.png) \
 [@JoseJPR](https://github.com/JoseJPR)
 
 ## License
