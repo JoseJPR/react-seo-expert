@@ -52,9 +52,9 @@ class Index extends React.Component {
     return (
       <div>
         <Head>
-          <Seo config={SEO} />
           <title>{SEO.title}</title>
         </Head>
+        <Seo config={SEO} />
       </div>
     );
   }
